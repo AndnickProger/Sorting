@@ -7,6 +7,7 @@
 #include <chrono>
 #include <random>
 #include <functional>
+#include <string>
 
 namespace bice
 {
@@ -542,4 +543,5 @@ namespace bice
 			quickSort(container, partition + 1, right);
 		}
 	}
+
 }
